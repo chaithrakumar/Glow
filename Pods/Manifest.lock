@@ -1,0 +1,18 @@
+PODS:
+  - Alamofire (4.3.0)
+  - AlamofireDomain (4.1)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireDomain (~> 4.1)
+  - SwiftyJSON (~> 3.1)
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  AlamofireDomain: 6a17c975e5fe8c10d8dbfdb1ab28e6dd0ae7cd41
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: c9623781d156f44a2e50c9ed1263d89effee9488
+
+COCOAPODS: 1.2.0

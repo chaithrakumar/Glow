@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="108" id="KGk-i7-Jjw" customClass="ContentListCell" customModule="GlowMe" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="108"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="107.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lIM-fk-csQ">
+                        <rect key="frame" x="8" y="8" width="304" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="6I7-b7-L5V"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b98-bd-5Jz">
+                        <rect key="frame" x="8" y="30" width="304" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Mzm-ta-bEI"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="15"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="genre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pcw-7r-Psf">
+                        <rect key="frame" x="8" y="50" width="304" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="FQi-tX-unC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="15"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="services" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wtM-Ju-ump">
+                        <rect key="frame" x="8" y="71" width="304" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="1Im-8u-OvV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="15"/>
+                        <color key="textColor" red="0.12549019607843137" green="0.77647058823529413" blue="0.29803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.11372549019607843" green="0.14901960784313725" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="b98-bd-5Jz" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="7vI-dE-LAK"/>
+                    <constraint firstItem="lIM-fk-csQ" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="BmK-wk-PTA"/>
+                    <constraint firstItem="lIM-fk-csQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="Keh-ee-9PX"/>
+                    <constraint firstItem="pcw-7r-Psf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Q53-dE-kJH"/>
+                    <constraint firstItem="b98-bd-5Jz" firstAttribute="top" secondItem="lIM-fk-csQ" secondAttribute="bottom" constant="1" id="She-eN-yz9"/>
+                    <constraint firstItem="pcw-7r-Psf" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="TQc-eS-Llq"/>
+                    <constraint firstItem="wtM-Ju-ump" firstAttribute="top" secondItem="pcw-7r-Psf" secondAttribute="bottom" id="XEx-7R-3OL"/>
+                    <constraint firstItem="pcw-7r-Psf" firstAttribute="top" secondItem="b98-bd-5Jz" secondAttribute="bottom" constant="-1" id="cWb-vH-ukx"/>
+                    <constraint firstItem="lIM-fk-csQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="mzX-cx-2qi"/>
+                    <constraint firstItem="b98-bd-5Jz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="wLP-mc-hRO"/>
+                    <constraint firstItem="wtM-Ju-ump" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="wrO-Vr-hEt"/>
+                    <constraint firstItem="wtM-Ju-ump" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="xda-wr-UtD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="TypeLabel" destination="pcw-7r-Psf" id="2MC-sJ-aIX"/>
+                <outlet property="genreLabel" destination="b98-bd-5Jz" id="gfl-FJ-Dmp"/>
+                <outlet property="serviceLabel" destination="wtM-Ju-ump" id="Z34-IK-SfM"/>
+                <outlet property="titleLable" destination="lIM-fk-csQ" id="C9e-eV-3zD"/>
+            </connections>
+            <point key="canvasLocation" x="-332" y="-103"/>
+        </tableViewCell>
+    </objects>
+</document>

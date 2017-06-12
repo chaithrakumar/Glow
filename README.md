@@ -1,6 +1,6 @@
 # SpeakToMe: Using Speech Recognition with AVAudioEngine
 
-Shows how to use SFSpeechRecognizer with AVAudioEngine to record what a user says and transcribe it into text.
+Voice Based Search Application to find your favorite TVShow to watch.
 
 ## Requirements
 
